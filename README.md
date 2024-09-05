@@ -1,0 +1,1 @@
+# MureObjectStitch-Image-Composition

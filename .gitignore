@@ -1,0 +1,6 @@
+**/*.pyc
+experiments
+checkpoints/*/
+checkpoints/*.pth
+*.egg-info
+*__pycache__

@@ -1,0 +1,16 @@
+academictorrents==2.3.3
+albumentations==0.4.3
+clip==0.2.0
+einops==0.3.0
+natsort==8.4.0
+numpy==1.22.4
+omegaconf==2.3.0
+opencv_python==4.5.5.64
+packaging==21.0
+Pillow==10.2.0
+pytorch_lightning==1.8.1
+PyYAML==6.0.1
+torch==1.11.0
+torchvision==0.12.0
+tqdm==4.65.2
+transformers==4.25.1

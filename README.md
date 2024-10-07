@@ -60,14 +60,14 @@ MureObjectStitch has been integrated into our image composition toolbox [libcom]
     ```
 ### 4. Inference on Examples
 - Please refer to the [examples](./examples/) folder for data preparation:
-  - keep the same filenames for each pair of data. 
+  - Use the same filename for paired data (e.g., `background` and `bbox`, `foreground` and `foreground_mask`). 
   - either the ``mask_bbox`` folder or the ``bbox`` folder is sufficient.
 - To perform image composition using the pretrained model or your finetuned model, you can use `scripts/inference.py`. For example,
 
     ```
     python scripts/inference.py \
     --outdir results \
-    --testdir examples \
+    --testdir examples/example1 \
     --num_samples 5 \
     --sample_steps 50 \
     --gpu 0

@@ -84,7 +84,7 @@ data:
           params:
               split: train
               image_size: 512
-              instance_data_root: /data/chenjiaxuan/project/DreamCom-Image-Composition/MureCom
+              instance_data_root: /data/chenjiaxuan/project/MureObjectStitch-Image-Composition/finetuning_examples
               image_num: 5
       validation:
           target: ldm.data.open_images.COCOEEDataset

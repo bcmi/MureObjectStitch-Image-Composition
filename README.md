@@ -6,6 +6,10 @@ We release the pretrained model for MureObjectStitch, which can achieve good res
 
 MureObjectStitch has been integrated into our image composition toolbox [libcom](https://github.com/bcmi/libcom).
 
+<p align='center'>  
+  <img src='./results/mureobjectstitch.jpg'  width=75% />
+</p>
+
 ## Get Started
 
 ### 1.  Dependencies

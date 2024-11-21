@@ -9,6 +9,8 @@ We release the pretrained model for MureObjectStitch, which can achieve good res
 
 MureObjectStitch has been integrated into our image composition toolbox [libcom](https://github.com/bcmi/libcom).
 
+**Note that in the reference images, the foreground object should occupy the whole image (see our example), otherwise the performance would be severely affected.**
+
 <p align='center'>  
   <img src='./figs/multiple_foreground_images.jpg.jpg'  width=75% />
   <img src='./figs/network.jpg'  width=70% />

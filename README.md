@@ -1,13 +1,11 @@
 # MureObjectStitch-Image-Composition
 
-This is the implementation of MureObjectStitch for the following research paper. 
+This is the technical report for MureObjectStitch, which has been integrated into our image composition toolbox [libcom](https://github.com/bcmi/libcom).
 > **MureObjectStitch: Multi-reference Image Composition**  [[arXiv]](https://arxiv.org/pdf/2411.07462) <br>
 
 MureObjectStitch is a simple extension of [ObjectStitch](https://github.com/bcmi/ObjectStitch-Image-Composition) to support multiple reference images of one foreground object. Generally, more reference images could lead to better results. 
 
 We release the pretrained model for MureObjectStitch, which can achieve good results for common or simple objects. However, the pretrained model is weak in keeping the object identity for the objects with rich details. If you have a few images containing the foreground object, we suggest finetuning MureObjectStitch using these images, which can greatly promote the detail preservation. 
-
-MureObjectStitch has been integrated into our image composition toolbox [libcom](https://github.com/bcmi/libcom).
 
 **Note that in the reference images, the foreground object should occupy the whole image (see our example), otherwise the performance would be severely affected.**
 

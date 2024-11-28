@@ -7,7 +7,7 @@ MureObjectStitch is a simple extension of [ObjectStitch](https://github.com/bcmi
 
 We release the pretrained model for MureObjectStitch, which can achieve good results for common or simple objects. However, the pretrained model is weak in keeping the object identity for the objects with rich details. If you have a few images containing the foreground object, we suggest finetuning MureObjectStitch using these images, which can greatly promote the detail preservation. 
 
-**Note that in the reference images, the foreground object should occupy the whole image (see our example), otherwise the performance would be severely affected.**
+**Note that in the reference images, the foreground object's length and width should fully extend to the edges of the image (see our example), otherwise the performance would be severely affected.**
 
 <p align='center'>  
   <img src='./figs/multiple_foreground_images.jpg.jpg'  width=75% />

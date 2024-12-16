@@ -1,13 +1,13 @@
 # MureObjectStitch-Image-Composition
 
-This is the implementation of MureObjectStitch for the following research paper. 
-> **MureObjectStitch: Multi-reference Image Composition**  [arXiv] <br>
+This is the technical report for MureObjectStitch, which has been integrated into our image composition toolbox [libcom](https://github.com/bcmi/libcom).
+> **MureObjectStitch: Multi-reference Image Composition**  [[arXiv]](https://arxiv.org/pdf/2411.07462) <br>
 
 MureObjectStitch is a simple extension of [ObjectStitch](https://github.com/bcmi/ObjectStitch-Image-Composition) to support multiple reference images of one foreground object. Generally, more reference images could lead to better results. 
 
 We release the pretrained model for MureObjectStitch, which can achieve good results for common or simple objects. However, the pretrained model is weak in keeping the object identity for the objects with rich details. If you have a few images containing the foreground object, we suggest finetuning MureObjectStitch using these images, which can greatly promote the detail preservation. 
 
-MureObjectStitch has been integrated into our image composition toolbox [libcom](https://github.com/bcmi/libcom).
+**Note that in the reference images, the foreground object's length and width should fully extend to the edges of the image (see our example), otherwise the performance would be severely affected.**
 
 <p align='center'>  
   <img src='./figs/multiple_foreground_images.jpg.jpg'  width=75% />
@@ -107,5 +107,20 @@ In the figure below, we show some example results of our MureObjectStitch. In ea
   <img src='./figs/more_results2.jpg'  width=90% />
 </p>
 
+## Citation
+If you find this work or code is helpful in your research, please cite:
+````
+@article{mureobjectstitch,
+  title={MureObjectStitch: Multi-reference Image Composition},
+  author={Chen, Jiaxuan and Zhang, Bo and Niu, Li},
+  journal={arXiv preprint arXiv:2411.07462},
+  year={2024}
+}
+````
 
+## Other Resources
++ We summarize the papers and codes of generative image composition: [Awesome-Generative-Image-Composition](https://github.com/bcmi/Awesome-Generative-Image-Composition)
++ We summarize the papers and codes of image composition from all aspects: [Awesome-Image-Composition](https://github.com/bcmi/Awesome-Image-Composition)
++ We summarize all possible evaluation metrics to evaluate the quality of composite images:  [Composite-Image-Evaluation](https://github.com/bcmi/Composite-Image-Evaluation)
++ We write a comprehensive survey on image composition: [the latest version](https://arxiv.org/pdf/2106.14490.pdf)
 

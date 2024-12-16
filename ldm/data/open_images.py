@@ -5,7 +5,7 @@ import transformers
 import shutil
 import sys
 from tqdm import tqdm
-import bezier
+# import bezier
 import albumentations as A
 from functools import partial
 import math

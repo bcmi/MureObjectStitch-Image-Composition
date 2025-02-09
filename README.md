@@ -100,12 +100,9 @@ We also provide more results of our MureObjectStitch on Murecom dataset through 
 In the figure below, we show some example results of our MureObjectStitch. In each example, from left to right, we show the background image with specified foreground placement, one example reference image of foreground object, and 5 results using different random seeds.
 
 <p align='center'>  
-  <img src='./figs/more_results1.jpg'  width=90% />
+  <img src='./figs/more_results.jpg'  width=90% />
 </p>
 
-<p align='center'>  
-  <img src='./figs/more_results2.jpg'  width=90% />
-</p>
 
 ## Citation
 If you find this work or code is helpful in your research, please cite:

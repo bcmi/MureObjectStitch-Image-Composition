@@ -1,5 +1,10 @@
 # CareCom-Image-Composition
 
+Welcome to scan the WeChat QR code to join the discussion group on image composition/compositing, object insertion/addition.
+<p align="center">
+<img width="150" height="150" alt="Image" src="https://github.com/user-attachments/assets/8572a7c4-0f62-4a5f-bc06-9a1d9fcb14e3" />
+</p>
+
 This is the official repository for the following paper:
 
 > **CareCom: Generative Image Composition with Calibrated Reference Features**  [[paper]](https://ojs.aaai.org/index.php/AAAI/article/download/37278/41240) [[arXiv]](https://arxiv.org/pdf/2511.11060)<br>
